@@ -7,7 +7,7 @@ for i in range(num):
     arr2.append(int(input()))
 print("The resluts are:\n")
 for x,y in zip(arr1,arr2):
-    print(x+y)
+    print(x+y,end='\t')
     
 
    
